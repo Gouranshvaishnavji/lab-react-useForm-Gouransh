@@ -71,9 +71,12 @@ function App() {
           <br />
           <span className="error-message">{errors.password?.message}</span>
           <br />
+          <div className='submit'>
           <button type="submit" className="submit-button">
             Submit
           </button>
+          </div>
+
         </form>
       </div>
 

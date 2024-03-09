@@ -35,6 +35,11 @@
   font-size: 0.8em;
 }
 
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .submit-button {
   background-color: #4caf50;
   color: white;
@@ -43,6 +48,8 @@
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  justify-content: center;
+  align-items: center;
 }
 
 .submit-button:hover {
